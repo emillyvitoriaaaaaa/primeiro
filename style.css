@@ -1,0 +1,40 @@
+/*SELETOR UNIVERSAL*/
+body{
+    font-family: sans-serif;
+}
+*{ margin: 0px;
+   
+ padding: 0px;
+
+}
+
+.cabecalho{
+    background-color: rgb(140,11,190,0.705);
+    color: aliceblue;
+    display: flex;
+    padding: 30px;
+    font-size: 24px;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.cabecalho-item{
+    display: inline-block;
+    padding: 0 100px;
+}
+
+.turma{
+  background-image: -moz-linear-gradient(rgba(140, 11, 190, 0.705), rgba(167, 99, 206, 0.705));
+
+}
+.turma-titulo{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.turma-imagem{
+    width: 300px;
+}
